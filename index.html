@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Pavlo">
     <title>Pavlo's Kimchi Recipe</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h1>Pavlo's Kimchi Recipe</h1>
@@ -25,12 +26,15 @@
       <li>Carrot and radishes</li>
     </ul>
 
+    <!-- Equipment section commented out as per assignment -->
+    <!--
     <h3>Equipment</h3>
     <ul>
       <li>Bowl</li>
       <li>Knife</li>
       <li>Cutting board</li>
     </ul>
+    -->
 
     <h3>Directions</h3>
     <ol>
@@ -42,6 +46,18 @@
 
     <hr />
     <p style="text-align:right;">This page created as academic activity only.</p>
+
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name="tblspn"> =
+    <input type="text" id="cups" name="cups">
+
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset style="width: 250px;">
+      <legend>How difficult is this recipe?</legend>
+      <input type="radio" id="easy" name="difficulty"> Easy
+      <input type="radio" id="med" name="difficulty"> Intermediate
+      <input type="radio" id="hard" name="difficulty"> Hard
+    </fieldset>
 
     <figure>
       <img src="images/kimchi.jpg" alt="Kimchi dish" height="250">
